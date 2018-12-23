@@ -1,0 +1,45 @@
+html, body{
+	width:100%;
+
+}
+
+
+button{
+	outline: none;
+
+}
+
+
+
+.content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hide{
+	display: none;
+}
+
+.content .start:hover{
+	background: red;
+}
+
+.content .done:hover{
+	background: red;
+
+}
+.content .done{
+	display: none;
+	margin-top: 10px;
+}
+
+
+.data{
+	display: none;
+}
+label{
+	margin-top: 15px;
+}
